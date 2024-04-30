@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-learning-from-scratch-3"
+version = "0.1.0"
+description = ""
+authors = ["tamakiii <tamakiii@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+mypy = "^1.10.0"
+black = "^24.4.2"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
